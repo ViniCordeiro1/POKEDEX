@@ -6,8 +6,6 @@
     margin: 0;
 }
 
-
-
 .normal {
     background-color: #a6a877
 }
@@ -135,6 +133,7 @@
     align-items: center;
     width: 100%;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .pagination button {
@@ -145,6 +144,11 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 380px) {
